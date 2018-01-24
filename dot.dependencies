@@ -1,14 +1,14 @@
 [
   {
-    "repository": "android_kernel_cyanogen_msm8916",
-    "target_path": "kernel/cyanogen/msm8916"
+	 "remote":"github",
+    "repository": "AndroiableDroid/proprietary_vendor_yu",
+    "target_path": "vendor/LYF/mobee01a"
+	 "revision":"cm-14.1"
   },
   {
-    "repository": "android_device_cyanogen_msm8916-common",
-    "target_path": "device/cyanogen/msm8916-common"
-  },
-   {
-     "repository": "android_vendor_yu",
-     "target_path": "vendor/yu" 
-   }
+	 "remote":"github",
+    "repository": "AndroiableDroid/android_kernel_LYF_LS5015",
+    "target_path": "kernel/LYF/mobee01a"
+	 "revision":"nichrome"
+  }
 ]

@@ -20,8 +20,8 @@ set -e
 export INITIAL_COPYRIGHT_YEAR=2015
 
 # Required!
-DEVICE=tomato
-VENDOR=yu
+DEVICE=mobee01a
+VENDOR=LYF
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
