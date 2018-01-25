@@ -1,8 +1,10 @@
 # Sensors
 PRODUCT_PACKAGES += \
-    libjni_proximityCalibrate \
-    ProximityCalibrate \
     sensors.msm8916
+
+# Multi HAL configuration file
+PRODUCT_COPY_FILES += \
+    device/xiaomi/ferrari/sensors/etc/hals.conf:system/etc/sensors/hals.conf
 
 # Permissions
 PRODUCT_COPY_FILES += \
