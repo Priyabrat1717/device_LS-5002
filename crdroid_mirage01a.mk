@@ -19,7 +19,7 @@ $(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
-PRODUCT_NAME := lineage_mirage01a
+PRODUCT_NAME := crdroid_mirage01a
 BOARD_VENDOR := LYF
 PRODUCT_DEVICE := mirage01a
 
