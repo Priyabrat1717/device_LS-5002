@@ -12,26 +12,26 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/LYF/mobee01a/full_mobee01a.mk)
+$(call inherit-product, device/LYF/mirage01a/full_mirage01a.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
-PRODUCT_NAME := dot_mobee01a
+PRODUCT_NAME := dot_mirage01a
 BOARD_VENDOR := LYF
-PRODUCT_DEVICE := mobee01a
+PRODUCT_DEVICE := mirage01a
 
 PRODUCT_GMS_CLIENTID_BASE := android-ckt
 
-TARGET_VENDOR_PRODUCT_NAME := LS-5015
-TARGET_VENDOR_DEVICE_NAME := LS-5015
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=LS-5015 PRODUCT_NAME=LS-5015
+TARGET_VENDOR_PRODUCT_NAME := LS-5002
+TARGET_VENDOR_DEVICE_NAME := LS-5002
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=LS-5002 PRODUCT_NAME=LS-5002
 
 ## Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=LYF/LS-5015/LS-5015:5.1.1/LMY49J/YOG4PAS8A4:user/release-keys \
-    PRIVATE_BUILD_DESC="LS-5015-user 5.1.1 LMY49J YOG4PAS8A4 release-keys"
+    BUILD_FINGERPRINT=LYF/LS-5002/LS-5002:5.1.1/LMY47V/455:user/release-keys \
+    PRIVATE_BUILD_DESC="mirage01a_msm8916_64-user 5.1.1 LMY47V 1193 release-keys"
 endif
