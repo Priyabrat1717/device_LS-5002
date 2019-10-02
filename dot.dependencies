@@ -2,13 +2,13 @@
   {
 	 "remote":"github",
     "repository": "AndroiableDroid/proprietary_vendor_yu",
-    "target_path": "vendor/LYF/mobee01a"
+    "target_path": "vendor/LYF/mirage01a"
 	 "revision":"cm-14.1"
   },
   {
 	 "remote":"github",
-    "repository": "AndroiableDroid/android_kernel_LYF_LS5015",
-    "target_path": "kernel/LYF/mobee01a"
-	 "revision":"nichrome"
+    "repository": "AndroiableDroid/legendary_kernel_mirage01a",
+    "target_path": "kernel/LYF/mirage01a"
+	 "revision":"master"
   }
 ]
