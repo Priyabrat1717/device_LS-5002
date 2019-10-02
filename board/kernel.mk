@@ -8,6 +8,6 @@ TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/LYF/mobee01a
-TARGET_KERNEL_CONFIG := LS5015_defconfig
+TARGET_KERNEL_CONFIG := legendary_defconfig
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/uber/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
