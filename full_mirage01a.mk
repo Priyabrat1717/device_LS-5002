@@ -18,7 +18,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from mobee01a device
+# Inherit device configuration
+$(call inherit-product, device/LYF/mirage01a/crdroid_mirage01a.mk)
+
+# Inherit from mirage01a device
 $(call inherit-product, device/LYF/mirage01a/device.mk)
 
 # Device identifier. This must come after all inclusions
