@@ -1,2 +1,2 @@
-add_lunch_combo lineage_mirage01a-userdebug
-# add_lunch_combo crdroid_mirage01a-userdebug
+# add_lunch_combo lineage_mirage01a-userdebug
+add_lunch_combo crdroid_mirage01a-userdebug
