@@ -1,1 +1,2 @@
 add_lunch_combo cm_mirage01a-userdebug
+add_lunch_combo aosp_mirage01a-userdebug
