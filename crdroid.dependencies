@@ -7,7 +7,7 @@
   },
   {
 	 "remote":"github",
-    "repository": "AndroiableDroid/legendary_kernel_mirage01a",
+    "repository": "Priyabrat1717/android_kernel_mirage01a",
     "target_path": "kernel/LYF/mirage01a"
 	 "revision":"master"
   }
