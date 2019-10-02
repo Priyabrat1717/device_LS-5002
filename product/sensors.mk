@@ -4,7 +4,7 @@ PRODUCT_PACKAGES += \
 
 # Multi HAL configuration file
 PRODUCT_COPY_FILES += \
-    device/LYF/mobee01a/sensors/etc/hals.conf:system/etc/sensors/hals.conf
+    device/LYF/mirage01a/sensors/etc/hals.conf:system/etc/sensors/hals.conf
 
 # Permissions
 PRODUCT_COPY_FILES += \
