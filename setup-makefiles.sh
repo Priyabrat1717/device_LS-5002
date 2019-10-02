@@ -20,7 +20,7 @@ set -e
 export INITIAL_COPYRIGHT_YEAR=2015
 
 # Required!
-DEVICE=mobee01a
+DEVICE=mirage01a
 VENDOR=LYF
 
 # Load extractutils and do some sanity checks
