@@ -38,7 +38,7 @@ import cyanogenmod.hardware.TouchscreenGesture;
 public class TouchscreenGestures {
 
     private static final String GESTURE_PATH =
-            "/sys/mip4_ts/wakeup_gesture";
+            "/sys/goodix/wakeup_gesture";
 
     // Id, name, keycode
     private static final TouchscreenGesture[] TOUCHSCREEN_GESTURES = {
