@@ -1,1 +1,1 @@
-add_lunch_combo lunch cm_mirage01a-userdebug
+add_lunch_combo cm_mirage01a-userdebug
