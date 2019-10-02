@@ -58,7 +58,7 @@ void init_target_properties()
     snprintf(density, sizeof(density), "%d", display_density);
     property_set("ro.sf.lcd_density", density);
     property_set("qemu.hw.mainkeys", "0");
-    property_set("ro.product.model", "LS-5015");
+    property_set("ro.product.model", "LS-5002");
     property_set("dalvik.vm.heapstartsize", "8m");
     property_set("dalvik.vm.heapgrowthlimit", "192m");
     property_set("dalvik.vm.heapsize", "512m");
