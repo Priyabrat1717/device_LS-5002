@@ -1,2 +1,2 @@
 # PowerHAL
-TARGET_POWER_SET_FEATURE_LIB := libpower_set_feature_mobee01a
+TARGET_POWER_SET_FEATURE_LIB := libpower_set_feature_mirage01a
