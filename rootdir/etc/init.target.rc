@@ -58,32 +58,32 @@ on boot
     chmod 0664 /sys/class/sensors/ltr553_proximity/poll_delay
 
     # Accelerator
-    chown system system /sys/class/sensors/lsm6ds3_accelerometer/calibrate
-    chown system system /sys/class/sensors/lsm6ds3_accelerometer/enable
-    chown system system /sys/class/sensors/lsm6ds3_accelerometer/enable_wakeup
-    chown system system /sys/class/sensors/lsm6ds3_accelerometer/flush
-    chown system system /sys/class/sensors/lsm6ds3_accelerometer/max_latency
-    chown system system /sys/class/sensors/lsm6ds3_accelerometer/poll_delay
-    chmod 0664 /sys/class/sensors/lsm6ds3_accelerometer/calibrate
-    chmod 0664 /sys/class/sensors/lsm6ds3_accelerometer/enable
-    chmod 0664 /sys/class/sensors/lsm6ds3_accelerometer/enable_wakeup
-    chmod 0664 /sys/class/sensors/lsm6ds3_accelerometer/flush
-    chmod 0664 /sys/class/sensors/lsm6ds3_accelerometer/max_latency
-    chmod 0664 /sys/class/sensors/lsm6ds3_accelerometer/poll_delay
+    chown system system /sys/class/sensors/lsm6ds0_accelerometer/calibrate
+    chown system system /sys/class/sensors/lsm6ds0_accelerometer/enable
+    chown system system /sys/class/sensors/lsm6ds0_accelerometer/enable_wakeup
+    chown system system /sys/class/sensors/lsm6ds0_accelerometer/flush
+    chown system system /sys/class/sensors/lsm6ds0_accelerometer/max_latency
+    chown system system /sys/class/sensors/lsm6ds0_accelerometer/poll_delay
+    chmod 0664 /sys/class/sensors/lsm6ds0_accelerometer/calibrate
+    chmod 0664 /sys/class/sensors/lsm6ds0_accelerometer/enable
+    chmod 0664 /sys/class/sensors/lsm6ds0_accelerometer/enable_wakeup
+    chmod 0664 /sys/class/sensors/lsm6ds0_accelerometer/flush
+    chmod 0664 /sys/class/sensors/lsm6ds0_accelerometer/max_latency
+    chmod 0664 /sys/class/sensors/lsm6ds0_accelerometer/poll_delay
 
 	 # Gyroscope
-	 chown system system /sys/class/sensors/lsm6ds3_gyroscope/calibrate
-    chown system system /sys/class/sensors/lsm6ds3_gyroscope/enable
-    chown system system /sys/class/sensors/lsm6ds3_gyroscope/enable_wakeup
-    chown system system /sys/class/sensors/lsm6ds3_gyroscope/flush
-    chown system system /sys/class/sensors/lsm6ds3_gyroscope/max_latency
-    chown system system /sys/class/sensors/lsm6ds3_gyroscope/poll_delay
-    chmod 0664 /sys/class/sensors/lsm6ds3_gyroscope/calibrate
-    chmod 0664 /sys/class/sensors/lsm6ds3_gyroscope/enable
-    chmod 0664 /sys/class/sensors/lsm6ds3_gyroscope/enable_wakeup
-    chmod 0664 /sys/class/sensors/lsm6ds3_gyroscope/flush
-    chmod 0664 /sys/class/sensors/lsm6ds3_gyroscope/max_latency
-	 chmod 0664 /sys/class/sensors/lsm6ds3_gyroscope/poll_delay
+	 chown system system /sys/class/sensors/lsm6ds0_gyroscope/calibrate
+    chown system system /sys/class/sensors/lsm6ds0_gyroscope/enable
+    chown system system /sys/class/sensors/lsm6ds0_gyroscope/enable_wakeup
+    chown system system /sys/class/sensors/lsm6ds0_gyroscope/flush
+    chown system system /sys/class/sensors/lsm6ds0_gyroscope/max_latency
+    chown system system /sys/class/sensors/lsm6ds0_gyroscope/poll_delay
+    chmod 0664 /sys/class/sensors/lsm6ds0_gyroscope/calibrate
+    chmod 0664 /sys/class/sensors/lsm6ds0_gyroscope/enable
+    chmod 0664 /sys/class/sensors/lsm6ds0_gyroscope/enable_wakeup
+    chmod 0664 /sys/class/sensors/lsm6ds0_gyroscope/flush
+    chmod 0664 /sys/class/sensors/lsm6ds0_gyroscope/max_latency
+	 chmod 0664 /sys/class/sensors/lsm6ds0_gyroscope/poll_delay
 
 service_redefine config_bt_addr /system/bin/btnvtool -b /system/bin/yl_btmac
     class core
